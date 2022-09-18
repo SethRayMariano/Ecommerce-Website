@@ -204,3 +204,20 @@ text-align: center;
   height: 200px;
   margin-left: 10%;
 }
+.b3{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 60px;
+}
+img.con{
+  width: 130px;
+  height: 130px;
+}
+.b3-1{
+  font-size: 18px;
+  font-weight: 300;
+  margin: 20px;
+  margin-bottom: 7px;
+  padding: 16px;
+  background: #808080;
+}
