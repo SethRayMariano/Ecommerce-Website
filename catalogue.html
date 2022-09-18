@@ -52,90 +52,73 @@
         </div>
         <div class="b2">
             <div class="b3">
-                <a href="">
-                    <div class="b3-1">
+
+                <div>
+                    <div class="b3-1" id="sc1">
                         <div><img class="con" src="img/CPYou Logo.png" alt=""></div>
                         <div>Logo</div>
                         <div>&#8369;120</div>
                     </div>
-                </a>
-                <a href="">
-                    <div class="b3-1">
+                    <div id="sc2" class="b4">
+                        <div class="b4-1">
+                            <span class="x">&times;</span>
+                            <div class="b4-2">
+                                <div><img class="image" src="img/CPYou Logo.png" alt=""></div>
+                                <div class="b4-3">
+                                    <h2>Logo</h2>
+                                    <hr>
+                                    <div class="b4-4">
+                                        <div>
+                                            <div>Price:</div>
+                                            <br>
+                                            <div>Type:</div>
+                                        </div>
+                                        <div>
+                                            <div>&#8369;120</div>
+                                            <br>
+                                            <div>Icon</div>
+                                        </div>
+                                        <button>Add To Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="b3-1" id="sc1">
                         <div><img class="con" src="img/CPYou Logo.png" alt=""></div>
                         <div>Logo</div>
                         <div>&#8369;120</div>
                     </div>
-                </a>
-                <a href="">
-                    <div class="b3-1">
-                        <div><img class="con" src="img/CPYou Logo.png" alt=""></div>
-                        <div>Logo</div>
-                        <div>&#8369;120</div>
+                    <div id="sc2" class="b4">
+                        <div class="b4-1">
+                            <span class="x">&times;</span>
+                            <div class="b4-2">
+                                <div><img class="image" src="img/CPYou Logo.png" alt=""></div>
+                                <div class="b4-3">
+                                    <h2>Logo</h2>
+                                    <hr>
+                                    <div class="b4-4">
+                                        <div>
+                                            <div>Price:</div>
+                                            <br>
+                                            <div>Type:</div>
+                                        </div>
+                                        <div>
+                                            <div>&#8369;120</div>
+                                            <br>
+                                            <div>Icon</div>
+                                        </div>
+                                        <button>Add To Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </a>
-                <a href="">
-                    <div class="b3-1">
-                        <div><img class="con" src="img/CPYou Logo.png" alt=""></div>
-                        <div>Logo</div>
-                        <div>&#8369;120</div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="b3-1">
-                        <div><img class="con" src="img/CPYou Logo.png" alt=""></div>
-                        <div>Logo</div>
-                        <div>&#8369;120</div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="b3-1">
-                        <div><img class="con" src="img/CPYou Logo.png" alt=""></div>
-                        <div>Logo</div>
-                        <div>&#8369;120</div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="b3-1">
-                        <div><img class="con" src="img/CPYou Logo.png" alt=""></div>
-                        <div>Logo</div>
-                        <div>&#8369;120</div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="b3-1">
-                        <div><img class="con" src="img/CPYou Logo.png" alt=""></div>
-                        <div>Logo</div>
-                        <div>&#8369;120</div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="b3-1">
-                        <div><img class="con" src="img/CPYou Logo.png" alt=""></div>
-                        <div>Logo</div>
-                        <div>&#8369;120</div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="b3-1">
-                        <div><img class="con" src="img/CPYou Logo.png" alt=""></div>
-                        <div>Logo</div>
-                        <div>&#8369;120</div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="b3-1">
-                        <div><img class="con" src="img/CPYou Logo.png" alt=""></div>
-                        <div>Logo</div>
-                        <div>&#8369;120</div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="b3-1">
-                        <div><img class="con" src="img/CPYou Logo.png" alt=""></div>
-                        <div>Logo</div>
-                        <div>&#8369;120</div>
-                    </div>
-                </a>
+                </div>
+                
+
             </div>
         </div>
     </div>
@@ -157,5 +140,21 @@
         <div>&copy; CPYou. All Right Reserved</div>
     </footer>
 </body>
+<script>
+    var press = document.getElementById("sc1");
+    var cont = document.getElementById("sc2");
+    var exit = document.getElementsByClassName("x")[0];
+    press.onclick = function () {
+        cont.style.display = "block";
+    }
+    exit.onclick = function () {
+        cont.style.display = "none";
+    }
+    window.onclick = function (event) {
+        if (event.target == cont) {
+            cont.style.display = "none";
+        }
+    }
+</script>
 
 </html>
