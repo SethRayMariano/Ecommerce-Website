@@ -179,6 +179,9 @@ ul, li{
   font-size: 18px;
   padding-bottom: 16px;
 }
+li>a{
+  color: #000000;
+}
 h3{
   margin: 0;
 }
