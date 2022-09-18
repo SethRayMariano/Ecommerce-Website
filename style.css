@@ -214,10 +214,13 @@ img.con{
   height: 130px;
 }
 .b3-1{
+  color: #000000;
+  text-align: left;
   font-size: 18px;
   font-weight: 300;
   margin: 20px;
   margin-bottom: 7px;
   padding: 16px;
   background: #808080;
+  border-radius: 10px;
 }
