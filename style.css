@@ -179,6 +179,7 @@ footer {
 
 .b2 {
   width: 100%;
+  min-height: 500px;
   height: auto;
   margin: 10px;
 }
@@ -313,8 +314,7 @@ img.image {
 .b4-4>button {
   width: 150px;
   height: 70px;
-  margin-left: 100px;
-  margin-right: 10%;
+  margin-left: 10%;
   color: #ffffff;
   background: #444444;
   border: #444444;
