@@ -71,7 +71,8 @@ a:hover {
 .h3 {
   padding-right: 3%;
 }
-.h4{
+
+.h4 {
   display: flex;
   width: auto;
   align-items: center;
@@ -162,67 +163,81 @@ footer {
   font-weight: 400;
 }
 
-.b{
+.b {
   display: flex;
   flex-direction: row;
   margin: 10px;
   margin-top: 40px;
 }
-.b1{
+
+.b1 {
   width: 190px;
   height: 240px;
   border-right: 1px solid black;
   padding-right: 12px;
 }
-.b2{
+
+.b2 {
   width: 100%;
   height: auto;
   margin: 10px;
 }
-ul, li{
+
+ul,
+li {
   list-style: none;
   padding: 0;
   font-size: 18px;
   padding-bottom: 16px;
 }
-li>a{
+
+li>a {
   color: #000000;
 }
-h3{
+
+h3 {
   margin: 0;
 }
-img.main{
+
+img.main {
   width: 100%;
   height: auto;
 }
-.b2-1{
-text-align: center;
+
+.b2-1 {
+  text-align: center;
 }
-.b2-1 > hr{
+
+.b2-1>hr {
   border-top: 3px solid black;
   margin: 0px;
 }
-.b2-1 > h5{
+
+.b2-1>h5 {
   text-decoration: underline;
   margin-bottom: 18px;
 }
-.b2-1 > div{
+
+.b2-1>div {
   font-size: 16px;
   text-align: left;
   width: 900px;
   height: 200px;
   margin-left: 10%;
 }
-.b3{
+
+.b3 {
   display: flex;
   flex-wrap: wrap;
   padding-left: 60px;
 }
-img.con{
+
+img.con {
   width: 130px;
   height: 130px;
 }
-.b3-1{
+
+.b3-1 {
   color: #000000;
   text-align: left;
   font-size: 18px;
@@ -233,7 +248,8 @@ img.con{
   background: #808080;
   border-radius: 10px;
 }
-.b3-1:hover{
+
+.b3-1:hover {
   cursor: pointer;
   opacity: 0.7;
 }
@@ -249,10 +265,11 @@ img.con{
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
 }
-img.image{
+
+img.image {
   width: 460px;
   height: 460px;
   background: #ffffff;
@@ -265,30 +282,35 @@ img.image{
   padding: 20px;
   width: 70%;
 }
-.b4-2{
+
+.b4-2 {
   display: flex;
   margin-top: 20px;
 }
-.b4-3{
+
+.b4-3 {
   margin: 20px;
   margin-top: 20px;
 }
-.b4-3 > h2{
+
+.b4-3>h2 {
   font-weight: bold;
   margin-bottom: 0%;
 }
 
-.b4-4{
+.b4-4 {
   display: flex;
   width: 100%;
   margin-left: 10px;
   font-size: 25px;
   margin-bottom: 10px;
 }
-.b4-4 > div{
+
+.b4-4>div {
   margin-right: 20px;
 }
-.b4-4 > button{
+
+.b4-4>button {
   width: 150px;
   height: 70px;
   margin-left: 100px;
@@ -297,9 +319,11 @@ img.image{
   background: #444444;
   border: #444444;
 }
-.b4-4 > button:hover{
+
+.b4-4>button:hover {
   opacity: 0.7;
 }
+
 .x {
   color: #ffffff;
   float: right;
@@ -313,11 +337,72 @@ img.image{
   text-decoration: none;
   cursor: pointer;
 }
-.b5{
+
+.b5 {
   width: 100%;
-  height: 400px;
-  margin-top: 3%;
-  margin-left: 30%;
-  margin-right: 30%;
+  height: 500px;
+  margin-left: 33%;
+  margin-right: 33%;
   background: #ffffff;
+  border-radius: 10px;
+}
+
+.b5-1 {
+  margin: 50px;
+}
+.b5-1>h2{
+  font-weight: bold;
+  margin: 0;
+}
+
+.b5-2 {
+  color: #000000;
+  font-size: 15px;
+}
+.b5-2>div{
+  margin-top: 20px;
+  margin-bottom: 3px;
+  font-size: 25px;
+}
+.b5-2>input{
+  margin-bottom: 2px;
+  width: 100%;
+  height: 30px;
+  font-size: 18px !important;
+}
+
+.b5-2>a {
+  color: #0000cd;
+  
+}
+
+.b5-2>button {
+  width: 70%;
+  height: 30px;
+  margin-top: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background: #444444;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.b5-3{
+font-size: 18px !important;
+}
+.b5-3>input{
+width: 18px;
+height: 18px;
+}
+.b5-4{
+  margin-top: 25px;
+  color: #000000;
+  text-align: center;
+  font-size: 20px;
+}
+.b5-4>div>a{
+  color: #0000cd;
+  text-decoration: underline;
 }
